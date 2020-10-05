@@ -1,0 +1,22 @@
+.fullscreener {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.gridder {
+  display: grid;
+}
+
+.centerer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexer {
+  display: flex;
+}

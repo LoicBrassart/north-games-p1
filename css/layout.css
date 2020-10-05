@@ -1,0 +1,16 @@
+#layout {
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 7fr;
+  grid-template-areas:
+    "header header"
+    "nav main";
+}
+#layout > header {
+  grid-area: header;
+}
+#layout > nav {
+  grid-area: nav;
+}
+#layout > main {
+  grid-area: main;
+}

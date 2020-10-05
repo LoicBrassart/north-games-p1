@@ -1,0 +1,25 @@
+/* ------------------------------------------------ GENERAL */
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(#146cbd, #0b2687);
+  color: white;
+}
+/* ------------------------------------------------ HEADER */
+header {
+  justify-content: space-between;
+}
+header img {
+  height: 60%;
+}
+
+/* ------------------------------------------------ NAV */
+nav {
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+nav li {
+  margin: 5%;
+}
+nav img {
+  width: 15%;
+}
